@@ -1,5 +1,6 @@
 while True:
-    print('Hey boy!')
+    name = input('Your name? ')
+    print('Hey!', name, '!')
     name = input('Say my name! ')
     if name == 'Mr. White':
         print('You goddam right!')
